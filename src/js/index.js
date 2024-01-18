@@ -52,3 +52,26 @@ function mostrarInformacoesDaAba(aba){
     const informacaoASerMostrada = document.getElementById(idDoElementoDeInformacoesDaAba)
     informacaoASerMostrada.classList.add("selecionado")
 }
+
+
+
+
+
+
+
+/*-------------------------*/
+
+
+
+/* Adicione ao seu arquivo index.js */
+
+document.addEventListener("DOMContentLoaded", function () {
+    createMario();
+  });
+  
+  function createMario() {
+    const marioDiv = document.createElement("div");
+    marioDiv.id = "super-mario";
+    document.querySelector(".super-mario-container").appendChild(marioDiv);
+  }
+  

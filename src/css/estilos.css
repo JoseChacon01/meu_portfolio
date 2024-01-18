@@ -140,10 +140,59 @@ body{
     background-color: #545454;
 }
 
+/*----------------------------------*/
+
+.redes-sociais li a img {
+    max-width: 50px;
+    max-height: 20px;
+    margin-right: 30px;
+}
+
+
+.redes-sociais li a {
+    display: flex;
+    align-items: center;
+    color: #f3f3f3;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
 
 
 
 
+
+
+/*----------------------------------*/
+
+/* Adicione ao seu arquivo estilos.css */
+/* Adicione ao seu arquivo estilos.css */
+
+#super-mario {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px; /* Ajuste conforme necessário */
+    height: 80px; /* Ajuste conforme necessário */
+    background: url('https://media.tenor.com/oZ-7VuJVOH8AAAAi/mario-cape.gif') no-repeat;
+    background-size: contain;
+    animation: marioRun 5s linear infinite; /* Ajuste para a velocidade desejada */
+  }
+  
+  @keyframes marioRun {
+    0% {
+      left: -80px; /* Começa fora da tela à esquerda */
+      transform: scaleX(1);
+    }
+    100% {
+      left: calc(100% + 80px); /* Sai completamente da tela à direita */
+      transform: scaleX(1);
+    }
+  }
+  
+  
+  
 
 
 
